@@ -34,6 +34,17 @@ Before you begin, ensure you have the following installed:
 - **Maven** (version 3.6 or higher)
 - An IDE (like IntelliJ IDEA or Eclipse) with Maven support
 
+## Setting Up API Cookie
+To ensure the API tests run successfully, you must provide a valid session cookie in the API requests. Follow these steps:
+
+### Retrieve the Cookie:
+
+- Log in to OrangeHRM via a web browser.
+- Open your browser’s developer tools (usually F12 or right-click > Inspect).
+- Navigate to the Network tab and log in if you haven't already. Look for a request with a Cookie header.
+- Copy the orangehrm cookie value.
+- Add Cookie to OrangeHRMCandidateAPI cookieValue variable:
+
 ## Setup Instructions
 
 1. **Clone the repository**:
